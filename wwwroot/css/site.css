@@ -91,6 +91,11 @@ body {
         height: 500px;
         width: 500px;
     }
+    .portrait {
+        width: 400px;
+        height: 400px;
+        border-radius: 250px;
+    }
 }
 /* Mobile */
 @media (max-width: 768px) {
@@ -98,6 +103,11 @@ body {
     .logo {
         height: 300px;
         width: 300px;
+    }
+    .portrait {
+        width: 80vw;
+        height: auto;
+        border-radius: 250px;
     }
 }
 .services {
